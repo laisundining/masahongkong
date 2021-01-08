@@ -9,7 +9,7 @@
 
 @media (max-width: 480px) {
     body {
-        background-image: url("./assets/MASAHK-mobile.jpg");
+        background-image: url("./assets/MASAHK-mobile2.jpg");
           background-position: center center; 
           background-attachment: fixed; 
           background-repeat: no-repeat; background-size: cover; 
@@ -19,7 +19,7 @@
 
 @media (min-width: 481px) {
     body {
-        background-image: url("./assets/MASAHK-desktop.jpg");
+        background-image: url("./assets/MASAHK-desktop2.jpg");
           background-position: center center; 
           background-attachment: fixed; 
           background-repeat: no-repeat; background-size: cover; 
