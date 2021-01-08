@@ -71,6 +71,33 @@
 }
 
 .link:hover {
-    background-color: var(--bgColor);
+    background: rgb(220, 211, 193);
     color: var(--accentColor);
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.footer a {
+    text-decoration:none;
+}
+
+.circulo {
+    background: rgb(255, 255, 255);
+    border-radius: 52px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(32, 32, 32);
+}
+
+.circulo:hover {
+    background: rgb(228, 232, 181);
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
 }
