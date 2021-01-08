@@ -1,0 +1,76 @@
+/* Style Settings */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+:root {
+    --bgColor: rgb(255, 255, 255);
+    --accentColor: #F8F2ED;
+    --font: 'Karla', sans-serif;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url("./assets/MASAHK-mobile.jpg");
+          background-position: center center; 
+          background-attachment: fixed; 
+          background-repeat: no-repeat; background-size: cover; 
+          width: auto;
+    }
+}
+
+@media (min-width: 481px) {
+    body {
+        background-image: url("https://masa-hk.conceptable.net/wp-content/uploads/sites/4/2021/01/part-b-720p-web.mp4");
+          background-position: center center; 
+          background-attachment: fixed; 
+          background-repeat: no-repeat; background-size: cover; 
+          width: auto;
+   }
+}
+
+
+#userPhoto {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+#userName {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#links {
+    color: rgb(0, 0, 0);
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.link {
+    display: block;
+    background-color: var(--accentColor);
+    color: rgb(0, 0, 0);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--accentColor) 2px;
+}
+
+.link:hover {
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+}
